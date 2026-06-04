@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#b7d85c;
+}
+
+/* HEADER */
+
+header{
+    background-color:#8ba620;
+    height:70px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 40px;
+}
+
+.logo{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:35px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+/* HERO */
+
+.hero{
+    height:100vh;
+    position:relative;
+    overflow: hidden;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color:white;
+    font-size:140px;
+    font-weight:900;
+    white-space: nowrap;
+
+    z-index: 2;
+}
+
+/* IMAGEN */
+
+.imagen-organica{
+    position: absolute;
+    top: 50%;
+    right: -11%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.imagen-organica img{
+    width: 700px;
+    height: auto;
+}
+.menu-section{
+    background-color: #dceca8;
+    padding: 80px;
+    min-height: 100vh;
+}
+
+.menu-title{
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.menu-card{
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.menu-card .card-body{
+    padding: 20px;
+}
+
+.menu-card .card-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-image{
+    width: 100%;
+    max-width: 500px;
+}
+.mujer-img {
+    width: 620px; !important
+    height: auto;
+}
+.comida-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 15px;
+}
