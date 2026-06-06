@@ -136,3 +136,8 @@ nav a{
     height: auto;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    z-index: 10;
+}
