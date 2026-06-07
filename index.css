@@ -138,5 +138,10 @@ nav a{
 
 .carousel-control-prev,
 .carousel-control-next {
-    z-index: 20;
+   opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
 }
