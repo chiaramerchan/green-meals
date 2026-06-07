@@ -50,10 +50,18 @@
 
     <h2 class="text-white fw-bold display-1 mb-4">MENU</h2>
    
-   
+   <div class="text-center mb-4">
+    <button class="btn btn-success me-2" onclick="mostrarMenu1()">
+        Menú 1
+    </button>
+
+    <button class="btn btn-success" onclick="mostrarMenu2()">
+        Menú 2
+    </button>
+</div>
 
        
-
+<div id="menu1">
    <div class="row">
 
     <!-- Columna izquierda -->
@@ -440,7 +448,8 @@
 
 </div> 
        
-
+</div> <!--fin de menu1-->
+<div id="menu2" style="display:none;">
 <div class="row mt-5">
 
     <!-- Columna izquierda -->
@@ -812,11 +821,27 @@
             </div>
         </div>
 
-
+    </div> <!--fin del menu2-->
 
 </section>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+function mostrarMenu1() {
+    document.getElementById("menu1").style.display = "block";
+    document.getElementById("menu2").style.display = "none";
+}
+
+function mostrarMenu2() {
+    document.getElementById("menu1").style.display = "none";
+    document.getElementById("menu2").style.display = "block";
+}
+</script>
+
+
+
 
 </body>
 
