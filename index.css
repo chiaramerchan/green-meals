@@ -137,15 +137,33 @@ nav a{
     margin-right: 20px;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: red;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+.titulo-responde{
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    opacity: 1 !important;
+.titulo-responde h1{
+    font-size: 90px;
+    font-weight: 300;
+    color: #8cab13;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.titulo-responde h2{
+    font-size: 55px;
+    font-weight: 300;
+    color: #8cab13;
+    font-style: italic;
+}
+@media (max-width: 768px){
+
+    .titulo-responde h1{
+        font-size: 55px;
+    }
+
+    .titulo-responde h2{
+        font-size: 35px;
+    }
+
 }
