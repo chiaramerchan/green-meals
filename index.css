@@ -199,8 +199,8 @@ nav a{
 }
 
 .titulo-reserva{
-    background-color: #67eb74;
-
+    background-color: #8cab13;
+    
     color: white;
 
     font-size: 55px;
@@ -216,4 +216,21 @@ nav a{
     border-radius: 25px;
 
     box-shadow: 0 8px 18px rgba(0,0,0,0.10);
+}
+
+.reserva-box{
+    background-color: #8cab13;
+
+    padding: 35px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.10);
+}
+
+.reserva-box label{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
