@@ -197,3 +197,18 @@ nav a{
     margin-bottom: 80px;
     border-radius: 10px;
 }
+
+.titulo-reserva{
+    background-color: #b6d334;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+
+    display: inline-block;
+
+    padding: 30px 60px;
+
+    border-radius: 30px;
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
