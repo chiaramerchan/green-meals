@@ -167,3 +167,24 @@ nav a{
     }
 
 }
+
+.responde-card{
+    border-radius: 30px;
+    border: none;
+    background-color: #f5efe8;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.10);
+}
+
+.pregunta{
+    color: #26456b;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.respuesta{
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    color: #26456b;
+}
