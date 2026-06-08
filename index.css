@@ -234,3 +234,32 @@ nav a{
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+.reserva-box-small{
+    background-color: #a6c62a;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.10);
+
+    height: 100%;
+}
+
+.reserva-box-small label{
+    color: white;
+
+    font-size: 28px;
+
+    font-weight: 800;
+
+    margin-bottom: 15px;
+}
+
+.form-select,
+.form-control{
+    border-radius: 15px;
+
+    padding: 12px;
+}
