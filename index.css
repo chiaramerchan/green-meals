@@ -61,7 +61,7 @@ nav a{
     color:white;
     font-size: 140px;
     font-weight:900;
-    white-space: normal;
+    white-space: nowrap;
 
     z-index: 2;
 }
