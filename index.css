@@ -59,9 +59,9 @@ nav a{
     transform: translate(-50%, -50%);
 
     color:white;
-    font-size:clamp(3rem, 10vw, 8.75rem);
+    font-size:140px;
     font-weight:900;
-    white-space: normal;
+    white-space: nowrap;
 
     z-index: 2;
 }
